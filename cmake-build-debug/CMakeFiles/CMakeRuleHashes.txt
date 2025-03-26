@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+289e8d74c4fb8c611be832176aa0b29b CMakeFiles/Dots_box_autogen
+289e8d74c4fb8c611be832176aa0b29b CMakeFiles/Dots_box_autogen_timestamp_deps
+7e85c048f39fa740e1b7e3d003073d4a Dots_box_autogen/timestamp

@@ -1,0 +1,5 @@
+/Users/damir/CLionProjects/Dots-boxes/cmake-build-debug/CMakeFiles/Dots_box.dir
+/Users/damir/CLionProjects/Dots-boxes/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/damir/CLionProjects/Dots-boxes/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/damir/CLionProjects/Dots-boxes/cmake-build-debug/CMakeFiles/Dots_box_autogen_timestamp_deps.dir
+/Users/damir/CLionProjects/Dots-boxes/cmake-build-debug/CMakeFiles/Dots_box_autogen.dir
