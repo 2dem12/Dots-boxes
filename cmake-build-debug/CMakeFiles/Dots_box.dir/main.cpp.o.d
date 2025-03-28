@@ -1025,4 +1025,6 @@ CMakeFiles/Dots_box.dir/main.cpp.o: \
   /opt/anaconda3/include/qt/QtCore/qabstractitemmodel.h \
   /opt/anaconda3/include/qt/QtWidgets/QPushButton \
   /opt/anaconda3/include/qt/QtWidgets/qpushbutton.h \
-  /opt/anaconda3/include/qt/QtWidgets/qabstractbutton.h
+  /opt/anaconda3/include/qt/QtWidgets/qabstractbutton.h \
+  /Users/damir/CLionProjects/Dots-boxes/game_window.hpp \
+  /opt/anaconda3/include/qt/QtWidgets/QGridLayout

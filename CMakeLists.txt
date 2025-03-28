@@ -14,7 +14,8 @@ find_package(Qt5 COMPONENTS
         REQUIRED)
 
 add_executable(Dots_box main.cpp
-        run.hpp)
+        run.hpp
+        game_window.hpp)
 target_link_libraries(Dots_box
         Qt5::Core
         Qt5::Gui

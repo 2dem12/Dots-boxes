@@ -127,6 +127,9 @@
 		<Unit filename="/Users/damir/CLionProjects/Dots-boxes/cmake-build-debug/Dots_box_autogen/timestamp.rule">
 			<Option target="Dots_box"/>
 		</Unit>
+		<Unit filename="/Users/damir/CLionProjects/Dots-boxes/game_window.hpp">
+			<Option target="Dots_box"/>
+		</Unit>
 		<Unit filename="/Users/damir/CLionProjects/Dots-boxes/main.cpp">
 			<Option target="Dots_box"/>
 		</Unit>

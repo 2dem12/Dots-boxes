@@ -112,6 +112,7 @@ Dots_box_autogen/timestamp: \
 	/Users/damir/CLionProjects/Dots-boxes/cmake-build-debug/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake \
 	/Users/damir/CLionProjects/Dots-boxes/cmake-build-debug/CMakeFiles/3.28.1/CMakeSystem.cmake \
 	/Users/damir/CLionProjects/Dots-boxes/cmake-build-debug/Dots_box_autogen/moc_predefs.h \
+	/Users/damir/CLionProjects/Dots-boxes/game_window.hpp \
 	/Users/damir/CLionProjects/Dots-boxes/main.cpp \
 	/Users/damir/CLionProjects/Dots-boxes/run.hpp \
 	/opt/anaconda3/include/qt/QtCore/qabstractitemmodel.h \
@@ -204,6 +205,7 @@ Dots_box_autogen/timestamp: \
 	/opt/anaconda3/include/qt/QtGui/qwindowdefs.h \
 	/opt/anaconda3/include/qt/QtWidgets/QApplication \
 	/opt/anaconda3/include/qt/QtWidgets/QComboBox \
+	/opt/anaconda3/include/qt/QtWidgets/QGridLayout \
 	/opt/anaconda3/include/qt/QtWidgets/QLabel \
 	/opt/anaconda3/include/qt/QtWidgets/QPushButton \
 	/opt/anaconda3/include/qt/QtWidgets/QVBoxLayout \

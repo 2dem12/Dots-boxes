@@ -1,6 +1,6 @@
 CMakeFiles/Dots_box.dir/Dots_box_autogen/mocs_compilation.cpp.o: \
   /Users/damir/CLionProjects/Dots-boxes/cmake-build-debug/Dots_box_autogen/mocs_compilation.cpp \
-  /Users/damir/CLionProjects/Dots-boxes/cmake-build-debug/Dots_box_autogen/EWIEGA46WW/moc_run.cpp \
+  /Users/damir/CLionProjects/Dots-boxes/cmake-build-debug/Dots_box_autogen/EWIEGA46WW/moc_game_window.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/memory \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__assert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__config \
@@ -482,9 +482,9 @@ CMakeFiles/Dots_box.dir/Dots_box_autogen/mocs_compilation.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__iterator/sortable.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__iterator/unreachable_sentinel.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__iterator/wrap_iter.h \
-  /Users/damir/CLionProjects/Dots-boxes/cmake-build-debug/Dots_box_autogen/EWIEGA46WW/../../../run.hpp \
-  /opt/anaconda3/include/qt/QtWidgets/QApplication \
-  /opt/anaconda3/include/qt/QtWidgets/qapplication.h \
+  /Users/damir/CLionProjects/Dots-boxes/cmake-build-debug/Dots_box_autogen/EWIEGA46WW/../../../game_window.hpp \
+  /opt/anaconda3/include/qt/QtWidgets/QWidget \
+  /opt/anaconda3/include/qt/QtWidgets/qwidget.h \
   /opt/anaconda3/include/qt/QtWidgets/qtwidgetsglobal.h \
   /opt/anaconda3/include/qt/QtGui/qtguiglobal.h \
   /opt/anaconda3/include/qt/QtCore/qglobal.h \
@@ -820,19 +820,19 @@ CMakeFiles/Dots_box.dir/Dots_box_autogen/mocs_compilation.cpp.o: \
   /opt/anaconda3/include/qt/QtCore/qversiontagging.h \
   /opt/anaconda3/include/qt/QtGui/qtgui-config.h \
   /opt/anaconda3/include/qt/QtWidgets/qtwidgets-config.h \
-  /opt/anaconda3/include/qt/QtCore/qcoreapplication.h \
+  /opt/anaconda3/include/qt/QtGui/qwindowdefs.h \
+  /opt/anaconda3/include/qt/QtCore/qobjectdefs.h \
+  /opt/anaconda3/include/qt/QtCore/qnamespace.h \
+  /opt/anaconda3/include/qt/QtCore/qobjectdefs_impl.h \
+  /opt/anaconda3/include/qt/QtCore/qobject.h \
   /opt/anaconda3/include/qt/QtCore/qstring.h \
   /opt/anaconda3/include/qt/QtCore/qchar.h \
   /opt/anaconda3/include/qt/QtCore/qbytearray.h \
   /opt/anaconda3/include/qt/QtCore/qrefcount.h \
-  /opt/anaconda3/include/qt/QtCore/qnamespace.h \
   /opt/anaconda3/include/qt/QtCore/qarraydata.h \
   /opt/anaconda3/include/qt/QtCore/qstringliteral.h \
   /opt/anaconda3/include/qt/QtCore/qstringalgorithms.h \
   /opt/anaconda3/include/qt/QtCore/qstringview.h \
-  /opt/anaconda3/include/qt/QtCore/qobject.h \
-  /opt/anaconda3/include/qt/QtCore/qobjectdefs.h \
-  /opt/anaconda3/include/qt/QtCore/qobjectdefs_impl.h \
   /opt/anaconda3/include/qt/QtCore/qlist.h \
   /opt/anaconda3/include/qt/QtCore/qalgorithms.h \
   /opt/anaconda3/include/qt/QtCore/qiterator.h \
@@ -961,24 +961,11 @@ CMakeFiles/Dots_box.dir/Dots_box_autogen/mocs_compilation.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/map \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/usr/include/c++/v1/__tree \
   /opt/anaconda3/include/qt/QtCore/qobject_impl.h \
-  /opt/anaconda3/include/qt/QtCore/qcoreevent.h \
-  /opt/anaconda3/include/qt/QtCore/qeventloop.h \
-  /opt/anaconda3/include/qt/QtGui/qwindowdefs.h \
-  /opt/anaconda3/include/qt/QtCore/qpoint.h \
-  /opt/anaconda3/include/qt/QtCore/qsize.h \
   /opt/anaconda3/include/qt/QtCore/qmargins.h \
-  /opt/anaconda3/include/qt/QtGui/qcursor.h \
-  /opt/anaconda3/include/qt/QtGui/qguiapplication.h \
-  /opt/anaconda3/include/qt/QtGui/qinputmethod.h \
-  /opt/anaconda3/include/qt/QtCore/qlocale.h \
-  /opt/anaconda3/include/qt/QtCore/qvariant.h \
-  /opt/anaconda3/include/qt/QtCore/qmap.h \
-  /opt/anaconda3/include/qt/QtCore/qhash.h \
-  /opt/anaconda3/include/qt/QtCore/qshareddata.h \
-  /opt/anaconda3/include/qt/QtWidgets/QWidget \
-  /opt/anaconda3/include/qt/QtWidgets/qwidget.h \
   /opt/anaconda3/include/qt/QtGui/qpaintdevice.h \
   /opt/anaconda3/include/qt/QtCore/qrect.h \
+  /opt/anaconda3/include/qt/QtCore/qsize.h \
+  /opt/anaconda3/include/qt/QtCore/qpoint.h \
   /opt/anaconda3/include/qt/QtGui/qpalette.h \
   /opt/anaconda3/include/qt/QtGui/qcolor.h \
   /opt/anaconda3/include/qt/QtGui/qrgb.h \
@@ -995,20 +982,36 @@ CMakeFiles/Dots_box.dir/Dots_box_autogen/mocs_compilation.cpp.o: \
   /opt/anaconda3/include/qt/QtGui/qpixelformat.h \
   /opt/anaconda3/include/qt/QtGui/qpixmap.h \
   /opt/anaconda3/include/qt/QtCore/qsharedpointer.h \
+  /opt/anaconda3/include/qt/QtCore/qshareddata.h \
+  /opt/anaconda3/include/qt/QtCore/qhash.h \
   /opt/anaconda3/include/qt/QtCore/qsharedpointer_impl.h \
   /opt/anaconda3/include/qt/QtGui/qfont.h \
   /opt/anaconda3/include/qt/QtGui/qfontmetrics.h \
   /opt/anaconda3/include/qt/QtGui/qfontinfo.h \
   /opt/anaconda3/include/qt/QtWidgets/qsizepolicy.h \
+  /opt/anaconda3/include/qt/QtGui/qcursor.h \
   /opt/anaconda3/include/qt/QtGui/qkeysequence.h \
-  /opt/anaconda3/include/qt/QtWidgets/QVBoxLayout \
-  /opt/anaconda3/include/qt/QtWidgets/qboxlayout.h \
+  /opt/anaconda3/include/qt/QtWidgets/QGridLayout \
+  /opt/anaconda3/include/qt/QtWidgets/qgridlayout.h \
   /opt/anaconda3/include/qt/QtWidgets/qlayout.h \
   /opt/anaconda3/include/qt/QtWidgets/qlayoutitem.h \
-  /opt/anaconda3/include/qt/QtWidgets/qgridlayout.h \
+  /opt/anaconda3/include/qt/QtWidgets/qboxlayout.h \
   /opt/anaconda3/include/qt/QtWidgets/QLabel \
   /opt/anaconda3/include/qt/QtWidgets/qlabel.h \
   /opt/anaconda3/include/qt/QtWidgets/qframe.h \
+  /Users/damir/CLionProjects/Dots-boxes/cmake-build-debug/Dots_box_autogen/EWIEGA46WW/moc_run.cpp \
+  /Users/damir/CLionProjects/Dots-boxes/cmake-build-debug/Dots_box_autogen/EWIEGA46WW/../../../run.hpp \
+  /opt/anaconda3/include/qt/QtWidgets/QApplication \
+  /opt/anaconda3/include/qt/QtWidgets/qapplication.h \
+  /opt/anaconda3/include/qt/QtCore/qcoreapplication.h \
+  /opt/anaconda3/include/qt/QtCore/qcoreevent.h \
+  /opt/anaconda3/include/qt/QtCore/qeventloop.h \
+  /opt/anaconda3/include/qt/QtGui/qguiapplication.h \
+  /opt/anaconda3/include/qt/QtGui/qinputmethod.h \
+  /opt/anaconda3/include/qt/QtCore/qlocale.h \
+  /opt/anaconda3/include/qt/QtCore/qvariant.h \
+  /opt/anaconda3/include/qt/QtCore/qmap.h \
+  /opt/anaconda3/include/qt/QtWidgets/QVBoxLayout \
   /opt/anaconda3/include/qt/QtWidgets/QComboBox \
   /opt/anaconda3/include/qt/QtWidgets/qcombobox.h \
   /opt/anaconda3/include/qt/QtWidgets/qabstractitemdelegate.h \

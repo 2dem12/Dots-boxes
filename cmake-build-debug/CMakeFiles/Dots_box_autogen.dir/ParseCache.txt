@@ -86,6 +86,7 @@
  mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h
  mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/wait.h
  mdp:/Users/damir/CLionProjects/Dots-boxes/cmake-build-debug/Dots_box_autogen/moc_predefs.h
+ mdp:/Users/damir/CLionProjects/Dots-boxes/game_window.hpp
  mdp:/Users/damir/CLionProjects/Dots-boxes/run.hpp
  mdp:/opt/anaconda3/include/qt/QtCore/qabstractitemmodel.h
  mdp:/opt/anaconda3/include/qt/QtCore/qalgorithms.h
@@ -177,6 +178,7 @@
  mdp:/opt/anaconda3/include/qt/QtGui/qwindowdefs.h
  mdp:/opt/anaconda3/include/qt/QtWidgets/QApplication
  mdp:/opt/anaconda3/include/qt/QtWidgets/QComboBox
+ mdp:/opt/anaconda3/include/qt/QtWidgets/QGridLayout
  mdp:/opt/anaconda3/include/qt/QtWidgets/QLabel
  mdp:/opt/anaconda3/include/qt/QtWidgets/QPushButton
  mdp:/opt/anaconda3/include/qt/QtWidgets/QVBoxLayout
@@ -201,6 +203,182 @@
  mdp:/opt/anaconda3/include/qt/QtWidgets/qstyleoption.h
  mdp:/opt/anaconda3/include/qt/QtWidgets/qtabbar.h
  mdp:/opt/anaconda3/include/qt/QtWidgets/qtabwidget.h
+ mdp:/opt/anaconda3/include/qt/QtWidgets/qtwidgets-config.h
+ mdp:/opt/anaconda3/include/qt/QtWidgets/qtwidgetsglobal.h
+ mdp:/opt/anaconda3/include/qt/QtWidgets/qwidget.h
+/Users/damir/CLionProjects/Dots-boxes/game_window.hpp
+ mmc:Q_OBJECT
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_intmax_t.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uint16_t.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uint32_t.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uint64_t.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uint8_t.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/alloca.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/assert.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/i386/_limits.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/i386/_mcontext.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/i386/_types.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/i386/endian.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/i386/limits.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/i386/signal.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/i386/types.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/libkern/i386/_OSByteOrder.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/limits.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/mach/i386/_structs.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/mach/machine/_structs.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/_mcontext.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/_types.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/endian.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/limits.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/signal.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/machine/types.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/malloc/_malloc.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/malloc/_malloc_type.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/malloc/_ptrcheck.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/stddef.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/stdint.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/stdlib.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/string.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/strings.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_endian.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_posix_availability.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_attr_t.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_ct_rune_t.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_dev_t.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_errno_t.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_id_t.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int16_t.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int32_t.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int64_t.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_int8_t.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_intptr_t.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_mode_t.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_offsetof.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_ptrdiff_t.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_rsize_t.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_sigaltstack.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_sigset_t.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_size_t.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_ssize_t.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_timeval.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int16_t.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int32_t.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int64_t.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int8_t.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_ucontext.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_uid_t.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_wchar_t.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_wint_t.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/appleapiopts.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/resource.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/signal.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h
+ mdp:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/wait.h
+ mdp:/Users/damir/CLionProjects/Dots-boxes/cmake-build-debug/Dots_box_autogen/moc_predefs.h
+ mdp:/Users/damir/CLionProjects/Dots-boxes/game_window.hpp
+ mdp:/opt/anaconda3/include/qt/QtCore/qalgorithms.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qarraydata.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qatomic.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qbasicatomic.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qbytearray.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qbytearraylist.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qchar.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qcompilerdetection.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qconfig.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qcontainerfwd.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qcontainertools_impl.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qdatastream.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qflags.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qglobal.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qglobalstatic.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qhash.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qhashfunctions.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qiodevice.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qiterator.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qline.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qlist.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qlogging.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qmargins.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qmetatype.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qmutex.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qnamespace.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qnumeric.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qobject.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qobject_impl.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qobjectdefs.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qobjectdefs_impl.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qpair.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qpoint.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qprocessordetection.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qrect.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qrefcount.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qregexp.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qscopedpointer.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qshareddata.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qsharedpointer.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qsharedpointer_impl.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qsize.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qstring.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qstringalgorithms.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qstringlist.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qstringliteral.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qstringmatcher.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qstringview.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qsysinfo.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qsystemdetection.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qtcore-config.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qtypeinfo.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qvarlengtharray.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qvector.h
+ mdp:/opt/anaconda3/include/qt/QtCore/qversiontagging.h
+ mdp:/opt/anaconda3/include/qt/QtGui/qbrush.h
+ mdp:/opt/anaconda3/include/qt/QtGui/qcolor.h
+ mdp:/opt/anaconda3/include/qt/QtGui/qcursor.h
+ mdp:/opt/anaconda3/include/qt/QtGui/qfont.h
+ mdp:/opt/anaconda3/include/qt/QtGui/qfontinfo.h
+ mdp:/opt/anaconda3/include/qt/QtGui/qfontmetrics.h
+ mdp:/opt/anaconda3/include/qt/QtGui/qimage.h
+ mdp:/opt/anaconda3/include/qt/QtGui/qkeysequence.h
+ mdp:/opt/anaconda3/include/qt/QtGui/qmatrix.h
+ mdp:/opt/anaconda3/include/qt/QtGui/qpaintdevice.h
+ mdp:/opt/anaconda3/include/qt/QtGui/qpalette.h
+ mdp:/opt/anaconda3/include/qt/QtGui/qpixelformat.h
+ mdp:/opt/anaconda3/include/qt/QtGui/qpixmap.h
+ mdp:/opt/anaconda3/include/qt/QtGui/qpolygon.h
+ mdp:/opt/anaconda3/include/qt/QtGui/qregion.h
+ mdp:/opt/anaconda3/include/qt/QtGui/qrgb.h
+ mdp:/opt/anaconda3/include/qt/QtGui/qrgba64.h
+ mdp:/opt/anaconda3/include/qt/QtGui/qtgui-config.h
+ mdp:/opt/anaconda3/include/qt/QtGui/qtguiglobal.h
+ mdp:/opt/anaconda3/include/qt/QtGui/qtransform.h
+ mdp:/opt/anaconda3/include/qt/QtGui/qwindowdefs.h
+ mdp:/opt/anaconda3/include/qt/QtWidgets/QGridLayout
+ mdp:/opt/anaconda3/include/qt/QtWidgets/QLabel
+ mdp:/opt/anaconda3/include/qt/QtWidgets/QWidget
+ mdp:/opt/anaconda3/include/qt/QtWidgets/qboxlayout.h
+ mdp:/opt/anaconda3/include/qt/QtWidgets/qframe.h
+ mdp:/opt/anaconda3/include/qt/QtWidgets/qgridlayout.h
+ mdp:/opt/anaconda3/include/qt/QtWidgets/qlabel.h
+ mdp:/opt/anaconda3/include/qt/QtWidgets/qlayout.h
+ mdp:/opt/anaconda3/include/qt/QtWidgets/qlayoutitem.h
+ mdp:/opt/anaconda3/include/qt/QtWidgets/qsizepolicy.h
  mdp:/opt/anaconda3/include/qt/QtWidgets/qtwidgets-config.h
  mdp:/opt/anaconda3/include/qt/QtWidgets/qtwidgetsglobal.h
  mdp:/opt/anaconda3/include/qt/QtWidgets/qwidget.h
